@@ -1,0 +1,9 @@
+import cherry.envs
+import inspect
+
+# 查看完整的源代码
+#print("=== Runner 类源代码 ===")
+#print(inspect.getsource(cherry.envs.Runner))
+
+# 查看文件路径
+print(f"Runner 定义文件: {inspect.getfile(cherry.envs.Runner)}")
